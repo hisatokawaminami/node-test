@@ -8,18 +8,38 @@
   <title>Nodes</title>
 </head>
 <body>
-
   <div class="row container">
-    <div class="jumbotron">
+    <div class="jumbotron jumbotron-fluid">
 
     <h1>Story Board</h1>
+    </div>
+
+    <button type="button" name="button" class = "addNode">+ New Node</button>
   </div>
 
-    <button type="button" name="button">+ New Node</button>
-  </div>
+  <!-- input form -->
+    <div class="row">
+      <div class="col-md-6">
 
-    <!-- Canvas for story board -->
-    <canvas id="canvas"></canvas>
+        <form id="nodeEntryForm">
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject">
+
+          </div>
+          <div class="form-group">
+            <label for="note">Note:</label>
+            <input type="text" class="form-control" id="note">
+          </div>
+
+
+        <span class="btn btn-primary" id="saveNode">Add Node</span>
+        </form>
+      </div>
+    </div>
+<!-- Canvas for story board -->
+  <canvas id="canvas"></canvas>
+
 
 
 </body>

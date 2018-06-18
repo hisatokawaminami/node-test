@@ -7,4 +7,14 @@ body {
 
 canvas {
   border: 1px solid black;
+  /*background-color: lightblue;*/
+
+}
+
+#nodeEntryForm {
+  display: none;
+}
+.jumbotron {
+  background-image: url(../img/grid.png);
+
 }
