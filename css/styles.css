@@ -2,7 +2,9 @@ body {
   margin: 0;
   background-color: gray;
   overflow: hidden;
-}
-canvas {
 
+}
+
+canvas {
+  border: 1px solid black;
 }
